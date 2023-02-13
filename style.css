@@ -1,0 +1,43 @@
+.calculator {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 20px;
+  font-size: 36px;
+  text-align: right;
+  background-color: #ddd;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.keypad {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+button {
+  width: 75px;
+  height: 60px;
+  font-size: 24px;
+  background-color: #fff;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px 0;
+}
+
+.operator {
+  background-color: #eee;
+}
+
+#clear, #backspace {
+  width: 165px;
+}
+
+#equals {
+  background-color: #ddd;
+}
